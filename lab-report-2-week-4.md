@@ -1,51 +1,51 @@
 # Code Changes
 
-1. Fixing code for when there's text between the brackets and parentheses.
+## 1. Fixing code for when there's text between the brackets and parentheses.
 
 ![Image](https://bhacia.github.io/cse15l-week4-labreport2/md-parse-code-change-1.png)
 
-2. Fixing code for when there's no end parenthesis.
+## 2. Fixing code for when there's no end parenthesis.
 
 ![Image](https://bhacia.github.io/cse15l-week4-labreport2/md-parse-code-change-2.png)
 
-3. Fixing code for when there's no brackets.
+## 3. Fixing code for when there's no brackets.
 
 ![Image](https://bhacia.github.io/cse15l-week4-labreport2/md-parse-code-change-3-pt1.png)
 ![Image](https://bhacia.github.io/cse15l-week4-labreport2/md-parse-code-change-3-pt2.png)
 
 # Respective Test Files
 
-1. Testing file with text between end bracket and open parenthesis: [test file 1](https://bhacia.github.io/markdown-parse/test-text-between-bracket-and-paren.md)
+## 1. Testing file with text between end bracket and open parenthesis: [test file 1](https://bhacia.github.io/markdown-parse/test-text-between-bracket-and-paren.md)
 
 ![Image](https://bhacia.github.io/cse15l-week4-labreport2/test-file-code-change-1.png)
 
-2. Testing file with missing end parenthesis: [test file 2](https://bhacia.github.io/markdown-parse/test-missing-end-paren.md)
+## 2. Testing file with missing end parenthesis: [test file 2](https://bhacia.github.io/markdown-parse/test-missing-end-paren.md)
 
 ![Image](https://bhacia.github.io/cse15l-week4-labreport2/test-file-code-change-2.png)
 
-3. Testing file with no brackets at all: [test file 3](https://bhacia.github.io/markdown-parse/test-file1.md)
+## 3. Testing file with no brackets at all: [test file 3](https://bhacia.github.io/markdown-parse/test-file1.md)
 
 ![Image](https://bhacia.github.io/cse15l-week4-labreport2/test-file-code-change-3.png)
 
 # Original Symptoms of Failures
 
-1. Content in test file 1 should not be treated as a link; output should be an empty arraylist: [OG test 1](https://bhacia.github.io/markdown-parse/ogTest1.md)
+## 1. Content in test file 1 should not be treated as a link; output should be an empty arraylist: [OG test 1](https://bhacia.github.io/markdown-parse/ogTest1.md)
 
 ![Image](https://bhacia.github.io/cse15l-week4-labreport2/og-test-1-symptom-1.png)
 
-Output is actually showing what's in the parentheses as a valid link.
+> Output is actually showing what's in the parentheses as a valid link.
 
-2. Content in test file 2 should not throw an exception; output should be an empty arraylist: [OG test 2](https://bhacia.github.io/markdown-parse/ogTest2.md)
+## 2. Content in test file 2 should not throw an exception; output should be an empty arraylist: [OG test 2](https://bhacia.github.io/markdown-parse/ogTest2.md)
 
 ![Image](https://bhacia.github.io/cse15l-week4-labreport2/og-test-2-symptom-2.png)
 
-Output is actually showing a String Index Out Of Bounds Exception.
+> Output is actually showing a String Index Out Of Bounds Exception.
 
-3. Content in test file 3 should not be treated as a link; output should be an empty arraylist: [OG test 3](https://bhacia.github.io/markdown-parse/ogTest3.md)
+## 3. Content in test file 3 should not be treated as a link; output should be an empty arraylist: [OG test 3](https://bhacia.github.io/markdown-parse/ogTest3.md)
 
 ![Image](https://bhacia.github.io/cse15l-week4-labreport2/og-test-3-symptom-3.png)
 
-Output is actually showing what's in the parentheses as a valid link.
+> Output is actually showing what's in the parentheses as a valid link.
 
 # Relationship Between the Bug, Symptom, and Failure-Inducing Input
 
