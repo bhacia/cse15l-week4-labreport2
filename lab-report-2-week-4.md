@@ -23,7 +23,7 @@
 
 ![Image](https://bhacia.github.io/cse15l-week4-labreport2/test-file-code-change-2.png)
 
-3. Testing file with no brackets at all: [test file 3](https://bhacia.github.io/markdown-parse/test-file.md)
+3. Testing file with no brackets at all: [test file 3](https://bhacia.github.io/markdown-parse/test-file1.md)
 
 ![Image](https://bhacia.github.io/cse15l-week4-labreport2/test-file-code-change-3.png)
 
